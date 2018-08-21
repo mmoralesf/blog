@@ -3,7 +3,7 @@
 
 #### Recommended editors:
 
-Visual Studio Code (by Microsoft) !(https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&ved=2ahUKEwjN_LCK7P3cAhVQUK0KHRZHD3oQjBAwAXoECAQQCQ&url=https%3A%2F%2Fcode.visualstudio.com%2Fdownload&usg=AOvVaw11fc5fOXYIyxQh75jYLjXg[Hithub])
+Visual Studio Code (by Microsoft) 
 Adobe Brackets
 Atom (by Github)
 
@@ -22,18 +22,50 @@ Download Now
 - Share link on the blog of the course. 
 
 
-## Markdown Language
+
+## Markdown 
 
 How to include code blocks using Markdwon: use tab. 
 
-    <!DOCTYPE html>
-     <html lang="en">
-        <head>
+        <p> This is some code in a box </b>
+    
+ ## HTML 
+ 
+ #### Tags
+ Inside the <head> element, let’s add <meta> and <title> elements. The <meta> element should include the proper charset attribute and value, while the <title> element should contain the title of the page—let’s say “Styles Conference.”
+
+``<head>
+  <meta charset="utf-8">
+  <title>Styles Conference</title>
+</head>``
+                  
+Inside the <body> element, let’s add <h1> and <p> elements. The <h1> element should include the heading we wish to include—let’s use “Styles Conference” again—and the <p> element should include a simple paragraph to introduce our conference.
+
+``<body>
+  <h1>Styles Conference</h1>
+  <p>Every year the brightest web designers and front-end developers descend on Chicago to discuss the latest technologies. Join us this August!</p>
+</body>``
+
+ #### Self Closing TAgs
+ - <br> 
+ - <embed>      - <hr>      - <img>     - <input> 
+ - <link>       - <meta>    - <param>   - <source>      
+ - <wbv>
+    
+
+        <!DOCTYPE html>
+         <html lang="en">
+            <head>
           <meta charset="utf-8">
           <title>Hello World</title>
        </head>
-     <body>
+        <body>
          <h1>Hello World</h1>
          <p>This is a web page.</p>
-     </body>
-    </html>
+         </body>
+        </html>
+
+
+The above is a complete HTML webpage. It looks boring, but that's what CSS is for. 
+
+#### Create style.css 
